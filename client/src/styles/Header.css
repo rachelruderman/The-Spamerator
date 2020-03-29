@@ -1,0 +1,48 @@
+.header {
+  font-family: 'Libre Barcode 39 Text', sans-serif;
+  font-size: 8em;
+  text-align: center;
+}
+
+.header span {
+  color: red;
+}
+
+.back-button {
+  left: 0;
+  margin-left: 20px;
+}
+
+.sign-out {
+  right: 0;
+  margin-right: 20px;
+}
+
+.back-button, .sign-out, .history, .new-spam, .questions {
+  position: fixed;
+  top: 0;
+  margin-top: 20px;
+  color: black;
+}
+
+.history {
+  right: 0;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.new-spam {
+  right: 0;
+  margin-top: 180px;
+  margin-right: 20px;
+}
+
+.questions {
+  right: 0;
+  margin-top: 260px;
+  margin-right: 20px;
+}
+
+.back-button:hover, .sign-out:hover, .history:hover, .new-spam:hover, .questions:hover {
+  color: red;
+}

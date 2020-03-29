@@ -1,0 +1,22 @@
+.welcome .buttons {
+  display: flex;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 3em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome a {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.welcome a:hover{
+  text-decoration: underline;
+}
+
+.welcome a:nth-of-type(3):hover {
+  color: red;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "mern-from-scratch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.1",
+    "bundle": "^0.2.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "nodemon": "^1.12.0",
+    "prop-types": "^15.5.10",
+    "rapidapi-connect": "^0.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-facebook-login-component": "^0.9.0",
+    "react-fontawesome": "^1.6.1",
+    "react-moment": "^0.6.5",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.13",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.4",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node ./node_modules/react-scripts/bin/react-scripts.js test --env=jsdom",
+    "eject": "node ./node_modules/react-scripts/bin/react-scripts.js eject"
+  }
+}

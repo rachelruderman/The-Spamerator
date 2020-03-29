@@ -1,0 +1,54 @@
+form div, form input, form textarea {
+  font-family: 'Courier', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form textarea {
+  width: 431px;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  font-family: 'Courier', sans-serif;
+  font-size: 1.5em;
+  outline: none;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.error{
+  color:red;
+  font-size: 1.5em;
+  font-family: 'Courier', sans-serif;
+  text-align: center;
+}
+
+.success{
+  font-size: 1.5em;
+  font-family: 'Courier', sans-serif;
+  text-align: center;
+}
+
+.login a, .signup a {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin-left: 20px;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 3em;
+  text-decoration: none;
+  color: black;
+}
+
+.login a:hover, .signup a:hover {
+  text-decoration: underline;
+}
