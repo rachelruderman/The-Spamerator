@@ -23,7 +23,7 @@
     "express": "^4.15.4",
     "jwt-simple": "^0.5.1",
     "mongodb": "^2.2.31",
-    "mongoose": "^4.11.11",
+    "mongoose": "^5.9.6",
     "morgan": "^1.8.2",
     "nodemon": "^1.12.0",
     "passport": "^0.4.0",
